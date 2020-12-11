@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+    --main-accent-color: #221e3f;
+    --section-title-color-dark: #37474f;
+    --body-color: #495057;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.6rem;
+    line-height: 4rem;
+    font-weight: 800;
+}
+
+.btn-white {
+    border: 2px solid #ffffff;
+    border-radius: 2rem;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: lowercase;
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn-white:hover{
+    background-color: #ffffff;
+    color: var(--main-accent-color);
+    border-radius: 2rem;
+
+}
+
+/* Section title */
+.section-title{
+    position: relative;
+}
+
+h2.section-title-heading{
+    color: var(--main-accent-color);
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.section-title::after{
+  content: '';
+  position: absolute;
+  border-bottom: 2px solid var(--main-accent-color);
+  width: 8%;  
+  top: 80px;
+}
+
+.section-title:hover::after{
+    width: 12%;
+    transition: all 0.6s ease-out;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+
+}
+
+/* ======Navigation====== */
+.navbar{
+    padding-top: 1.2rem;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .85rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ffe838;
+}
+
+/* =====Hero Section===== */
+
+#hero{
+    background-color: #221e3f;
+    opacity: 5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    position: relative;
+}
+
+#hero::after{
+    content: '';
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    height: 15%;
+    transform: skewY(-2deg);
+    transform-origin: bottom right;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.main-hero-content h1{
+    color: #ffffff;
+    font-size: 4rem ;
+    text-transform: uppercase;
+    letter-spacing: .11rem;
+}
+
+.main-hero-content h2{
+    color: #ffe838;
+    font-size: .8rem;
+    text-transform: lowercase;
+    letter-spacing: .11rem;
+}
+
+.main-hero-content p{
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    line-height: 1.7rem;
+    font-size: 1rem;
+}
+
+.image-box img{
+    position: absolute;
+    top: .5rem;
+    z-index: 1;
+}
+
+
+/* OverView Section */
+
+#overview i{
+    color: var(--main-accent-color);
+}
+
+#overview h3{
+    color: var(--section-title-color-dark);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#overview p{
+    color: var(--body-color);
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+#overview{
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+
+
+/* ========Project-Overview */
+
+#project-overview{
+    background-color: #f6f6f6e8;
+    padding-bottom: 6rem;
+    margin-top: 3rem; 
+}
+
+#project-overview h2{
+    color: #d20303;
+    font-size: 2rem;
+}
+#project-overview img{
+    display: block;
+    margin: 0;
+}
+
+#project-overview .app-block{
+    text-align: center;
+}
+
+#project-overview .app-block h3{
+    color: var(--main-accent-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#project-overview .app-block img{
+    padding-bottom: 1rem;
+}
+
+#project-overview .app-block p{
+    color: var(--body-color);
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+
+/* ============Research Section=========== */
+
+#research{
+    background-color: #221e3f;
+    opacity: 5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 6rem;
+    position: relative;
+}
+
+
+#research .research-title h2{
+    padding-top: 10rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+#research .research-title p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-top: 2.5rem;
+}
