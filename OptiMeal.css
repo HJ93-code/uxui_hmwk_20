@@ -146,12 +146,13 @@ h2.section-title-heading{
 
 #overview i{
     color: var(--main-accent-color);
+    padding-bottom: 1rem;
 }
 
 #overview h3{
     color: var(--section-title-color-dark);
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: uppercase;
 }
 
@@ -233,4 +234,15 @@ h2.section-title-heading{
     font-size: 1rem;
     line-height: 1.7rem;
     margin-top: 2.5rem;
+}
+
+
+#skills .row {
+    color: #ffffff;
+    padding-bottom: 6rem;
+    margin-top: 5rem; 
+}
+
+#skills i{
+    color: #ffe838;
 }
