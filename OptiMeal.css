@@ -241,6 +241,7 @@ h2.section-title-heading{
 #skills i {
     color:#5575ba;
     padding-right: 16px!important;
+    justify-items: center;
 }
 
 

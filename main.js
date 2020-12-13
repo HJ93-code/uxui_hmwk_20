@@ -23,6 +23,16 @@ $(document) .ready(function () {
          }, 2000);
     }); 
 
+   $(".scroll-down").click(function(){
+       $('html,body').animate({scrollTop:$(document).height()},2000);
+
+       return false;
+
+   });
+
+
+
+
 AOS.init({
     easing: 'ease',
     duration: 1800,
